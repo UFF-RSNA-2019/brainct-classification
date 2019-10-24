@@ -1,14 +1,15 @@
-# Import BinaryRelevance from skmultilearn
 from skmultilearn.problem_transform import BinaryRelevance
-
-# Import SVC classifier from sklearn
 from sklearn.svm import SVC
 
-# Setup the classifier
+# carrega os arquivos
+from numpy import genfromtxt
+x_samples = genfromtxt('my_file.csv', delimiter=',')
+
+# configura o classificador
 classifier = BinaryRelevance(classifier=SVC(), require_dense=[False,True])
 
-# Train
+# treina
 classifier.fit(X_train, y_train)
 
-# Predict
+# predict
 y_pred = classifier.predict(X_test)

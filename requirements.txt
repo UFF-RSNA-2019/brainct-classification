@@ -6,3 +6,4 @@ configparser
 opencv-python
 imutils
 scikit-multilearn
+sklearn
