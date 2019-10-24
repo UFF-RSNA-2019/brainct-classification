@@ -1,0 +1,8 @@
+scikit-image==0.16.1
+matplotlib
+numpy
+pydicom
+configparser
+opencv-python
+imutils
+scikit-multilearn
