@@ -1,3 +1,3 @@
 Desafio RSNA 2019
 
-Pre-processamento das imagens
+Classificação das Imagens
