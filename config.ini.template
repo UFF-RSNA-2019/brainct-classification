@@ -2,3 +2,5 @@
 # Diretorios
 TrainPath=[Incluir caminho do diretorio com arquivos de treinamento exemplo: /rsna/dataset/stage_1_train_images]
 FeaturesPath=[Incluir caminho do arquivo de features. exemplo: /rsna/dataset/features]
+ModelsPath=[Incluir caminho do arquivo de modelos. exemplo: /rsna/models]
+ResultadosPath=[Incluir caminho do arquivo de modelos. exemplo: /rsna/resultados]
