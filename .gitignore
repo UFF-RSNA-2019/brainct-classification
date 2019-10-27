@@ -3,6 +3,8 @@ dataset/
 .idea/
 backup/
 *.ini
+models/
+resultados/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
