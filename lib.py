@@ -23,8 +23,6 @@ except KeyError:
 
 # CONSTANTES
 
-SIZE = 512
-
 # obtem classificacao de um elemento dos dados de treinamento
 def get_classification(filename):
     train_file = "{}/stage_1_train.csv".format(config['TrainPath'])
